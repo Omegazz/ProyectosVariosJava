@@ -1,8 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/***********************************
+* Autor: Diego Salas
+* Archivo: Algoritmos de ordenamiento
+* Fecha creacion: 25/01/2014
+* Última modificacion: 27/01/2014
+***********************************/
 
 package Burbuja;
 
