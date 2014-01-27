@@ -1,8 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/***********************************
+* Autor: Diego Salas
+* Archivo: Algoritmos de ordenamiento
+* Fecha creacion: 25/01/2014
+* Última modificacion: 27/01/2014
+***********************************/
 
 /**
  *
@@ -21,10 +22,6 @@ import MergeSort.MergeSort;
 
 public class Main {
     
-    /***
-     * 
-     * @param args 
-     */
     //Input y output
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static PrintStream out = System.out; 
@@ -36,6 +33,11 @@ public class Main {
     public static QuickSort qui;
     public static MergeSort mer;
     
+    /***
+     * 
+     * @param args
+     * @throws IOException 
+     */
     public static void main(String args[]) throws IOException
     {
         //Inicializacion de las variables
@@ -62,6 +64,10 @@ public class Main {
         }while (noSalir);
     }
     
+    /***
+     * 
+     * @param plista 
+     */
     static void mostrarMenu(String[] plista)
     {
 
@@ -73,6 +79,11 @@ public class Main {
         out.println();
     }
     
+    /***
+     * 
+     * @return
+     * @throws java.io.IOException 
+     */
     static int leerOpcion()throws java.io.IOException
     {
 
@@ -144,7 +155,8 @@ public class Main {
     
     /***
      * 
-     * @param plistado 
+     * @param plistado
+     * 
      */
     public static void imprimirResul(int [] plistado)
     {
